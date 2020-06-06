@@ -1,0 +1,19 @@
+{
+  "name": "ts-hello-world-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundargs2000/ts-hello-world-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sundargs2000/ts-hello-world-action/issues"
+  },
+  "homepage": "https://github.com/sundargs2000/ts-hello-world-action#readme"
+}

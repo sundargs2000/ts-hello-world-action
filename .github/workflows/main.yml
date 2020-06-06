@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+    - name: Hello world action step
+      id: hello
+      uses: sundargs2000/ts-hello-world-action@master
+      with:
+        name: 'Sundar'
+    - name: status check
+      run: echo "status ${{ steps.hello.outputs.status }}"

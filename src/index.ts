@@ -2,7 +2,7 @@ const core = require('@actions/core');
 const exec = require('@actions/exec');
 
 try {
-  await exec.exec('ls');
+  exec.exec('ls');
   const nameToGreet = core.getInput('name');
   console.log(`Hello ${nameToGreet}!`);
   let op = `Result = ${nameToGreet}-success`; 

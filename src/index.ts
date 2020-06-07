@@ -6,6 +6,7 @@ const exec = require('@actions/exec');
 async function run() {
   try {
     let out = await exec.exec('sudo apt install nodejs');
+    let out = await exec.exec('npm install');
     console.log(out);
     const nameToGreet = core.getInput('name');
     console.log(`Hello ${nameToGreet}!`);

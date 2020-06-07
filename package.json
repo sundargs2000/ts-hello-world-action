@@ -7,7 +7,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "tsc --outDir ./lib --rootDir ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

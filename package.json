@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "build": "tsc --outDir ./lib --rootDir ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/sundargs2000/ts-hello-world-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4"
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4"
   }
 }
